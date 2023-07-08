@@ -1,13 +1,15 @@
 import React from 'react';
-import AnimeList from '../components/Animelist';
-
+import AnimeList from '../components/AnimeList.jsx'
+import MangaList from '../components/MangaList.jsx';
+import Navbar from '../components/atomos/navbar.jsx';
 
 function App() {
   return (
-    <div>
-      <center><h1>Animemania</h1></center>
+    <>
+      <Navbar />
       <AnimeList />
-    </div>
+      <MangaList />
+    </>
   );
 }
 

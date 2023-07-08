@@ -1,24 +1,37 @@
-.popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 1rem;
-    background-color: white;
-    padding: 2%;
-    text-align: center;
-
+.anime-list, .manga-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.card {
+.anime-list .card {
+    display: flex;
+    flex-direction: column;
     width: 18%;
     border-radius: 1rem;
     background-color: var(--main-aqua-color);
     padding: 2%;
     justify-items: center;
+    align-content: space-between;
     margin: 1%;
     filter: grayscale(80%);
     transition: filter 300ms;
     text-align: center;
+    position: relative;
+}
+.manga-list .card {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 1rem;
+    background-color: var(--main-magenta-color);
+    padding: 2%;
+    justify-items: center;
+    align-content: space-between;
+    margin: 1%;
+    filter: grayscale(80%);
+    transition: filter 300ms;
+    text-align: center;
+    position: relative;
 }
 .card:is(:hover, :focus){
     filter: grayscale(0%);
@@ -35,12 +48,18 @@
     scale: 110%;
     cursor: pointer;
 }
-.anime-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.card p {
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    padding: 2%;
 }
 .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 90%;
     border-radius: 1rem;
     background-color: var(--main-darkpurple-color);
@@ -50,6 +69,7 @@
     filter: grayscale(80%);
     transition: filter 300ms;
     text-align: center;
+    z-index: 2;
 }
 .popup img{
     border-radius: 1rem;

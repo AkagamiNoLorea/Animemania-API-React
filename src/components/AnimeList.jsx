@@ -28,7 +28,7 @@ function AnimeList() {
         <div className='anime-list'>
             {animeList.map(anime => (
                 <div key={anime.id} className='card'>
-                    <button onClick={() => openPopup(anime)} className='wrapper'>
+                    <button onClick={() => openPopup(anime)}>
                         <img src={anime.attributes.posterImage.small} alt={anime.attributes.canonicalTitle} />
                     </button>
                     <h2>{anime.attributes.titles.en}</h2>
@@ -44,7 +44,7 @@ function AnimeList() {
                     )}
                     <h2>{selectedAnime.attributes.titles.en}</h2>
                     <h3>{selectedAnime.attributes.titles.ja_jp}</h3>
-                    <p>{selectedAnime.attributes.synopsis}</p>
+                    <p className='synopsis'>{selectedAnime.attributes.synopsis}</p>
                     <button onClick={closePopup} className='close-button'>Cerrar</button>
                 </div>
             )}

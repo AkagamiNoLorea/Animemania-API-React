@@ -27,7 +27,8 @@ function MangaList() {
 
     return (
         <>
-    <section><h2>Sección Manga</h2>
+    <section className='section-manga'>
+        <h2>Sección Manga</h2>
         <div className='manga-list'>
             {mangaList.map(manga => (
                 <div key={manga.id} className='card'>
@@ -37,7 +38,7 @@ function MangaList() {
                     <h2>{manga.attributes.canonicalTitle}</h2>
                     <p>Puntuación: {manga.attributes.averageRating}/100 <Icon icon="material-symbols:star" color="#ffaf69" width="25" height="25" /></p>
                 </div>
-            ))}Manga
+            ))}
             {showPopup && selectedManga && (
                 < div className = 'popup'>    
             {selectedManga.attributes.coverImage && (

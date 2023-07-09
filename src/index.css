@@ -33,7 +33,6 @@ nav h1 {
   animation: neon 4s infinite;
   padding: 0.5%;
 }
-
 section>h2 {
   color: white;
   font-size: 2.5rem;
@@ -41,9 +40,37 @@ section>h2 {
   5px 5px 5px black,
   5px 5px 5px black;
 }
+.section-anime{
+  margin-top: -5%;
+}
 section {
-  padding-bottom: 6%;
-}/* brillo y flicker */
+  padding: 6%;
+}
+hr{
+  border: white 5px solid;
+  width: 90%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+  background: url("./img/starry-night-sky.jpg") center bottom no-repeat;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+.footer a{
+  color: var(--main-dark-color);
+  text-decoration: none;
+  
+}
+.footer a:visited{
+  color: var(--main-dark-color);
+  text-decoration: none;
+}
+
+/* brillo y flicker */
 @keyframes neon {
   0%, 38%, 41%, 59%, 61%, 100% {
     text-shadow:

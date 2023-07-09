@@ -28,7 +28,7 @@ function AnimeList() {
 
     return (
     <div>
-    <section>
+    <section className='section-anime'>
         <h2>Sección Anime</h2>
         <div className='anime-list'>
             

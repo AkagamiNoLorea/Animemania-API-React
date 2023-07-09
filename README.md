@@ -18,6 +18,12 @@ Los elementos no han sido eliminados para una futura intervención y conseguir h
 
 No puede aplicarsele ningún filtro o barra de busqueda, debido a la escasez de datos de la API.
 
+## Apoyo
+La parte visual se ha reaclixado gracias al apoyo visual creado en el siguiente archivo de figma:
+https://www.figma.com/file/KJ6mAH4GFLGnmY9f2yGMUZ/Animemania?type=design&mode=design&t=ae4IR6MDhF1xLn6j-0
+
+Las imagenes, de backgrounds utilizadas proceden de: https://www.freepik.es/
+
 
 ## Visualizaciones
 https://raw.githubusercontent.com/AkagamiNoLorea/Animemania-API-React/main/assets/webpt1.png

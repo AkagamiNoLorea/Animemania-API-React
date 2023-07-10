@@ -6,7 +6,7 @@
 .anime-list .card {
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: clamp(250px, 18%, 400px);
     border-radius: 1rem;
     background-color: var(--main-aqua-color);
     padding: 2%;
@@ -16,12 +16,12 @@
     filter: grayscale(80%);
     transition: filter 300ms;
     text-align: center;
-    position: relative;
+    line-gap-override: 2%;
 }
 .manga-list .card {
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: clamp(250px, 18%, 400px);
     border-radius: 1rem;
     background-color: var(--main-magenta-color);
     padding: 2%;
@@ -31,7 +31,7 @@
     filter: grayscale(80%);
     transition: filter 300ms;
     text-align: center;
-    position: relative;
+    line-gap-override: 2%;
 }
 .card:is(:hover, :focus){
     filter: grayscale(0%);
@@ -48,12 +48,16 @@
     scale: 110%;
     cursor: pointer;
 }
+.card h2{
+    margin: (minmax 15px, 6%);
+}
 .card p {
     align-items: center;
     position: absolute;
-    bottom: 0;
+    bottom: 0.25%;
     left: 25%;
     padding: 2%;
+    margin: 2%;
 }
 .popup {
     position: fixed;
@@ -73,6 +77,7 @@
 }
 .popup img{
     border-radius: 1rem;
+    width: 100%;
 }
 .popup h2, h3{
     color: white;

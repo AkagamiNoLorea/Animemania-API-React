@@ -18,7 +18,7 @@ body {
   text-align: center;
 }
 nav{
-  margin-top: -3%;
+  
   background: url("./img/starry-night-sky.jpg") center bottom no-repeat;
   width: 100%;
   position: sticky;
@@ -32,6 +32,8 @@ nav h1 {
   font-weight: 900;
   animation: neon 4s infinite;
   padding: 0.5%;
+  margin-top: -3%;
+  border: 15px 
 }
 section>h2 {
   color: white;
@@ -44,7 +46,7 @@ section>h2 {
   margin-top: -5%;
 }
 section {
-  padding: 6%;
+  padding: 6% 1%;
 }
 hr{
   border: white 5px solid;

@@ -38,7 +38,7 @@ function AnimeList() {
                         <img src={anime.attributes.posterImage.small} alt={anime.attributes.canonicalTitle} />
                     </button>
                     <h2>{anime.attributes.canonicalTitle}</h2>
-                    <p>Puntuación: {anime.attributes.averageRating}/100 <Icon icon="material-symbols:star" color="#ffaf69" width="25" height="25" /></p>
+                    <p>Puntuación: {anime.attributes.averageRating} <Icon icon="material-symbols:star" color="#ffaf69" width="25" height="25" /></p>
                 </div>
             ))}
             {showPopup && selectedAnime && (

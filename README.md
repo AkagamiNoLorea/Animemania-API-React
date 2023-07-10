@@ -26,8 +26,7 @@ Las imagenes, de backgrounds utilizadas proceden de: https://www.freepik.es/
 
 
 ## Visualizaciones
-https://raw.githubusercontent.com/AkagamiNoLorea/Animemania-API-React/main/assets/webpt1.png
-
+<img src='src\assets\webpt1.png'>
 ![Visualización inicial de la web, con navbar y sección de Animes]
 
 https://raw.githubusercontent.com/AkagamiNoLorea/Animemania-API-React/main/assets/webpt2.png

@@ -27,13 +27,13 @@ Las imagenes, de backgrounds utilizadas proceden de: https://www.freepik.es/
 
 ## Visualizaciones
 <img src='src\assets\webpt1.png'>
-(Visualización inicial de la web, con navbar y sección de Animes)
+(Visualización inicial de la web, con navbar y sección de Animes)<br>
 
 <img src='src\assets\webpt2.png'>
-(Visualización de la web, donde se ve la sección de Mangas)
+(Visualización de la web, donde se ve la sección de Mangas)<br>
 
 <img src='src\assets\webpt3.png'>
-(Visualización de la web, donde se ve el footer)
+(Visualización de la web, donde se ve el footer)<br>
 
 <img src='src\assets\webptpup.png'>
 (Visualización de la web, donde se ve el popup)

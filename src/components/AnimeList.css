@@ -101,7 +101,7 @@
     margin-top: 1%;
     
 }
-.popup button::after {
+.popup button:after {
     content: '';
     width: 110%;
     height: 110%;
